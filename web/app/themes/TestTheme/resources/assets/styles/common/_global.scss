@@ -1,0 +1,13 @@
+// a {
+//   transition: color 0.5s ease-in-out;
+
+//   @include hover {
+//     color: map-get($map: $theme-colors, $key: secondary);
+//   }
+// }
+
+.page-url {
+  background-color: map-get($map: $theme-colors, $key: info);
+
+  @extend .btn, .btn-danger;
+}
